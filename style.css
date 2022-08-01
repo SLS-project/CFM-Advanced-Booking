@@ -1,9 +1,4 @@
-@import "./node_modules/bootstrap/dist/css/bootstrap.css";
-@import "./node_modules/bootstrap/dist/css/bootstrap.css";
-@import "./node_modules/bootstrap-vue-3/dist/bootstrap-vue-3.css";
-@import "./src/assets/css/controller.css";
-@import "./src/assets/css/color.css";
-@import "./src/assets/css/reset.css"; 
+
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -11,8 +6,10 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    background-color:#000000 !important;
   }
-
+  body {background-color:#000000;}
+.b-breadcrumb-item{background-color:none!important; padding: 0px, im !important;; font-size: 10px !important;}
 .libraryPage{
   display: flex;
   flex-direction: column;

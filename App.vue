@@ -1,5 +1,4 @@
 <template>
-1/8/2022/12:28
  <libraryPage> </libraryPage>
 </template>
 
@@ -11,11 +10,10 @@ export default {
     libraryPage
   }
 }
-    import '../style.css';  
 </script>
 
 <style scoped>
-
+@import url('./style.css');  
 /* @import './../node_modules/bootstrap/dist/css/bootstrap.css';
 @import './../node_modules/bootstrap-vue-3/dist/bootstrap-vue-3.css';> */
 
